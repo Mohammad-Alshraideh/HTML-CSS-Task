@@ -45,3 +45,6 @@ button{
     box-shadow: 1px 1px 1px 1px rgb(147, 147, 147);
     
 }
+.no-border{
+    border: none;
+}

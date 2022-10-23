@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .red{
+        display: inline-block;
+        background-color: red;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        border: 1px solid black;
+        color: white;
+      }
+      .red:nth-child(2n+0){
+        display: none;
+      }
+    </style>
+</head>
+<body>
+    <h1>Hide even numbers from 1 to 10 !</h1>  
+    <div class="inline">
+        <div class="red"><span>1</span></div>
+        <div class="red"><span>2</span></div>
+        <div class="red"><span>3</span></div>
+        <div class="red"><span>4</span></div>
+        <div class="red"><span>5</span></div>
+        <div class="red"><span>6</span></div>
+        <div class="red"><span>7</span></div>
+        <div class="red"><span>8</span></div>
+        <div class="red"><span>9</span></div>
+        <div class="red"><span>10</span></div>
+    </div>
+    <hr>
+</body>
+</html>
