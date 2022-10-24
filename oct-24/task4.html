@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.container {
+    height: 400px;
+  
+    display: grid;
+    grid-template-areas:
+    'black black '
+    'orange green '
+    'blue blue';
+    gap: 5px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows:10% 60% 30% ;
+    
+}
+
+.black {
+     background-color: black;
+     grid-area: black;
+     }
+.orange {
+    background-color: orange;
+     grid-area: orange;
+     }
+.green {
+    background-color: green;
+     grid-area: green; 
+    }
+.blue {
+    background-color: blue;
+     grid-area: blue; 
+    }
+
+</style>
+</head>
+<body>
+
+
+
+
+<div class="container">
+  <div class="black"></div>
+  <div class="orange"></div>
+  <div class="green"></div>  
+  <div class="blue"></div>
+
+</div>
+
+</body>
+</html>
