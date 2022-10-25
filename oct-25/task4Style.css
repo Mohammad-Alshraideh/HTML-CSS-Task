@@ -1,0 +1,62 @@
+
+        .container{
+            height: 700px;
+            display: flex;
+            padding: 10px;
+            background-color: rgb(218, 165, 32);
+
+            
+            color: white;
+            text-align: center;
+        }
+        .container div{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        
+        .green{
+            background-color: green;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .purple{
+            background-color: purple;
+        }
+        .grey{
+            background-color: grey;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .red{
+            background-color: red;
+        }
+        .crimson{
+            background-color: crimson;
+        }
+        @media only screen and (min-width:481px) and (max-width:768px){
+          .container{
+            display: grid;
+            grid-template-columns: auto auto;
+          }
+        } 
+
+        @media only screen and (min-width:0px) and (max-width:480px){
+            .container{
+            flex-wrap: wrap;
+            padding: 5;
+            height: 110%;
+          }
+        
+        }

@@ -1,0 +1,91 @@
+.container{
+           
+    background-color: rgb(218, 165, 32);
+     padding: 10px;
+
+
+}
+
+.grid-container{
+  
+  background-color: white;
+  color: white; 
+  display: grid;
+
+  grid-template-rows: auto auto auto auto ;
+  grid-template-columns: auto auto auto auto ;
+
+}
+
+.grid-container div{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+
+}
+
+
+.teal{
+   background-color: teal;
+}
+.blue{
+   background-color: skyblue;
+}
+.purple{
+   background-color: purple;
+}
+.dark-blue{
+   background-color: rgb(33, 33, 83);
+}
+.orange{
+   background-color: orange;
+}
+.dark-orange{
+   background-color: darkorange;
+}
+.red{
+   background-color: red;
+}
+.grey{
+   background-color: grey;
+}
+.green{
+   background-color: green;
+}
+.dark-green{
+   background-color: darkgreen;
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+.grid-container{
+  grid-template-columns: auto auto ;
+  background-color: rgb(218, 165, 32);
+  justify-content: center;
+  
+
+}
+.grid-container div{
+
+height: 350px;
+width: 350px;
+
+}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){
+.grid-container{
+display: flex;
+flex-direction: column;
+background-color: rgb(218, 165, 32);
+justify-content: center;
+align-items: center;
+}
+.grid-container div{
+
+   height: 250px;
+   width: 250px;
+
+}
+}

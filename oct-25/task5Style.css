@@ -1,0 +1,33 @@
+
+
+        .container{
+            display: flex;
+            color: white;
+            height: 700px;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .container div{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+ 
+  } 
+
+  @media only screen and (min-width:0px) and (max-width:480px){
+      .container{
+        flex-direction: column;
+      }
+      .container div{
+        height: 100%;
+    }
+    }
